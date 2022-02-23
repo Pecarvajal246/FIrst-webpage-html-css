@@ -67,6 +67,7 @@ button {
   color: #F9FAF8;
   padding: 8px 25px;
   margin: 0px;
+  border-style: solid;
 }
 
 .image {
@@ -144,4 +145,41 @@ button {
   font-size: 20px;
   font-weight: bold;
   padding-left: 300px
+}
+
+.signup_section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  margin: 100px 150px;
+  border-radius: 20px;
+  height: 150px;
+}
+
+.signup_upper_text {
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.signup_lower_text {
+  color: #E5E7EB;
+  margin: 0;
+}
+
+.signup_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.button2 {
+  border-color: #F9FAF8;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #F9FAF8;
 }
